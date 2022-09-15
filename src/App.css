@@ -1,38 +1,133 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Setup */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-background-color: #ececec;
+  --highlight-color: #e5c07b;
+  --font-color: #000;
+  --white-font-color: #fff;
+  --hover-color: #505050;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* App */
+
 .App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  flex-grow: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Home */
+
+.Home {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./img/hero-image.jpg');
+  background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-content {
+  font-size: 2rem;
+  color: var(--white-font-color);
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+}
+
+.ShopButton {
+  width: fit-content;
+  font-size: 1.5rem;
+  background-color: #fff;
+  opacity: 80%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ShopButton:hover {
+  opacity: 90%;
+}
+
+.ShopButton:active {
+  opacity: 50%;
+}
+
+.ShopButton .shop-text {
+  text-decoration: none;
+  color: black;
+}
+/* Navigation */
+
+.logo {
+  width: 100px;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--nav-background-color);
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links .link {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.nav-links .link:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+
+.shopping-cart {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.Checkout {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+.Footer {
+  padding: 10px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  gap: 10px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: var(--nav-background-color);
 }
