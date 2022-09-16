@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Navigation from './components/Navigation';
 import Home from './Home';
@@ -17,7 +17,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <BrowserRouter className="BrowserRouter">
+      <HashRouter>
         <Navigation cartItems={cartItems} />
         <div className="content">
           <Routes>
@@ -31,7 +31,7 @@ export default function App() {
           </Routes>
         </div>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
