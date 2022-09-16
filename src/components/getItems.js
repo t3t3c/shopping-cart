@@ -40,6 +40,24 @@ export default function getItems() {
       price: 2399,
       new: false,
     },
+    {
+      name: `${brand} \`60s Telecaster Sunburst`,
+      img: Telecaster60sSunBurst,
+      price: 2399,
+      new: false,
+    },
+    {
+      name: `${brand} \`70s Telecaster Custom`,
+      img: TelecasterCustom70s,
+      price: 2399,
+      new: false,
+    },
+    {
+      name: `${brand} \`60s Telecaster Thinline`,
+      img: TelecasterThinline60s,
+      price: 2399,
+      new: false,
+    },
   ];
   return items;
 }

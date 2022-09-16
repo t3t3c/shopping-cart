@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import guitarLogo from '../img/guitar-logo.png';
-import Checkout from './Checkout';
+import ShoppingCart from './ShoppingCart';
 
-export default function Navigation() {
+export default function Navigation(props) {
   return (
     <nav className="Navigation">
       <Link className="link" to="/">
@@ -19,7 +19,7 @@ export default function Navigation() {
           Contact
         </Link>
         <Link className="link" to="/checkout">
-          <Checkout />
+          <ShoppingCart cartItems={props.cartItems} />
         </Link>
       </ul>
     </nav>

@@ -1,10 +1,10 @@
 import { MdShoppingCart } from 'react-icons/md';
 
-export default function Checkout(props) {
+export default function ShoppingCart(props) {
   return (
     <div className="Checkout">
       <MdShoppingCart className="shopping-cart" />
-      {0}
+      {props.cartItems.length}
     </div>
   );
 }
