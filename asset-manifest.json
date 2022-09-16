@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.8a2ea880.css",
+    "main.js": "/shopping-cart/static/js/main.414bc807.js",
+    "static/media/hero-image.jpg": "/shopping-cart/static/media/hero-image.73af76796162b85161a7.jpg",
+    "static/media/TelecasterThinline60s.jpg": "/shopping-cart/static/media/TelecasterThinline60s.7ea5dfc7da0f880bfe3e.jpg",
+    "static/media/Jazzmaster60s.jpg": "/shopping-cart/static/media/Jazzmaster60s.f31fabf66be396e6f203.jpg",
+    "static/media/TelecasterCustom70s.jpg": "/shopping-cart/static/media/TelecasterCustom70s.d728a991efd2bec776cb.jpg",
+    "static/media/Telecaster60sSunBurst.jpg": "/shopping-cart/static/media/Telecaster60sSunBurst.cb703beba9318cf18694.jpg",
+    "static/media/Telecaster50s.jpg": "/shopping-cart/static/media/Telecaster50s.f693a8542979e6956c3e.jpg",
+    "static/media/Stratocaster50s.jpg": "/shopping-cart/static/media/Stratocaster50s.a78dc885897d1555d964.jpg",
+    "static/media/Telecaster60s.jpg": "/shopping-cart/static/media/Telecaster60s.62785beb36ea9609ee42.jpg",
+    "static/media/Stratocaster60s.jpg": "/shopping-cart/static/media/Stratocaster60s.3634acb0b00b2846600a.jpg",
+    "static/media/guitar-logo.png": "/shopping-cart/static/media/guitar-logo.4a81e228021b3b8056bb.png",
+    "index.html": "/shopping-cart/index.html",
+    "static/media/github.svg": "/shopping-cart/static/media/github.efaeba642599c2dd069dca24d15e2783.svg",
+    "main.8a2ea880.css.map": "/shopping-cart/static/css/main.8a2ea880.css.map",
+    "main.414bc807.js.map": "/shopping-cart/static/js/main.414bc807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a2ea880.css",
+    "static/js/main.414bc807.js"
+  ]
+}
